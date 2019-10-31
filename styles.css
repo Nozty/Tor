@@ -1,0 +1,39 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+h1 {
+font-family: "Ubuntu", Ubuntu, sans-serif;
+color:white;
+}
+
+p {
+color: black;
+font-size: 150%;
+text-align:
+}
+
+nav {
+font-family: "verdana", "verdana", sans-serif;
+overflow: hidden;
+background-color: black;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+
+#menu {
+padding-bottom: 5px;
+padding-right: 5px;
+margin-left: 0;
+padding-left: 0;
+}
+
+li {
+display: inline-block;
+padding-left: 15px;
+padding-right: 15px;
+}  
+
