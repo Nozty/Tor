@@ -8,6 +8,7 @@ box-sizing: border-box;
 
 font-family: "Ubuntu", Ubuntu, sans-serif;
 font-weight: bold;
+font-style: italic;
 color:white;
 font-size: 150%;
 overflow: hidden;
@@ -30,10 +31,11 @@ padding: 20px;
 }
 
 #menu {
-padding-bottom: 0px;
+padding-top: 5px;
+padding-bottom: 50px;
 padding-right: 0px;
-margin-left: 0px;
-padding-left: 700px;
+margin-left: 720px;
+padding-left: 0px;
 }
 
 li {
