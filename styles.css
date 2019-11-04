@@ -52,4 +52,23 @@ a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
 a:hover, a:active { text-decoration: none; }
 
+#kontaktbilde {
+padding-bottom: 25px;
+}
+
+#kontaktoverskrift {
+float: right;
+padding-right: 565px;
+padding-bottom: 0px;
+font-size: 135%;
+}
+
+.telefonnummer {
+font-style: italic;
+color:purple;
+font-weight:bold;
+}
+
+
+
 
