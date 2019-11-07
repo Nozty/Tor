@@ -27,15 +27,11 @@ overflow: hidden;
 background-color: black;
 display: flex;
 justify-content: space-between;
-padding: 20px;
+padding: 18px;
 }
 
 #menu {
-padding-top: 5px;
-padding-bottom: 50px;
-padding-right: 0px;
 margin-left: 720px;
-padding-left: 0px;
 }
 
 li {
@@ -74,5 +70,18 @@ font-weight:bold;
 	float: left;
 }
 
+.header {
+	padding-left: 0px
+	
+}
+
+#grofta {
+	float: right;
+	padding-right: 255px;
+}
+
+body {
+	background-color: #fefaff;
+}
 
 
