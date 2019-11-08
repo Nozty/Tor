@@ -11,19 +11,16 @@ font-weight: bold;
 font-style: italic;
 color:white;
 font-size: 150%;
-overflow: hidden;
 
 }
 
 p {
 color: black;
 font-size: 150%;
-text-align:
 }
 
 #logo {
 font-family: "verdana", "verdana", sans-serif;
-overflow: hidden;
 background-color: black;
 display: flex;
 justify-content: space-between;
@@ -32,6 +29,7 @@ padding: 18px;
 
 #menu {
 margin-left: 720px;
+padding-left: 50px;
 }
 
 li {
@@ -42,11 +40,12 @@ padding-top: 0px;
 padding-bottom: 3px;
 }  
 
-a { text-decoration: none; color:white; }
+a { text-decoration: none; color:white;background-color: transparent;text-decoration: none;width: 100px;
+color:white;
+font-weight: bold; }
 a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
-a:hover, a:active { text-decoration: none; }
+a:hover, a:active { text-decoration: none;;color:black;background-color: white; }
 
 #kontaktbilde {
 padding-bottom: 25px;
@@ -68,20 +67,60 @@ font-weight:bold;
 #kontaktbildetor {
 	padding-top: 30px;
 	float: left;
+	width:100%;
 }
 
 .header {
-	padding-left: 0px
-	
-}
-
-#grofta {
-	float: right;
-	padding-right: 255px;
+	filter: brightness(55%);
+	vertical-align: top;
+	width: 100%;
+    height: auto;
 }
 
 body {
 	background-color: #fefaff;
 }
 
+#hp {
+	font-family: "verdana", "verdana", sans-serif;
+	text-align: center;
+	font-style: italic;
 
+}
+
+.taket {
+	font-family: "verdana", "verdana", sans-serif;
+	background-color: black;
+	padding-left:40px;
+	
+}
+
+.taket-img {
+	padding-top:20px;
+	padding-left:30px;
+	height:auto; width:auto;
+}
+
+.h2 {
+	color: black;
+	text-decoration: none;
+}
+
+a.b { text-decoration: none;
+      color:black;
+	  background-color: transparent;
+	  text-decoration: none;
+      font-family: "verdana", "verdana", sans-serif;
+	  text-size: 50px;
+}
+	
+a.b:hover {
+text-decoration: none;
+color:white;
+background-color: black; 
+}	  
+
+.grofta {
+	text-align: center;
+	padding-top: 20px;
+}
