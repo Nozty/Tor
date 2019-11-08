@@ -167,3 +167,11 @@ background-color: black;
     padding-left: 0px;
   }
 }
+.footer {
+	background-color: black;
+	padding: 30px;
+}
+
+.cr {
+	color: white;
+}
