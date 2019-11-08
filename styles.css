@@ -83,7 +83,7 @@ font-weight:bold;
 	filter: brightness(55%);
 	vertical-align: top;
 	max-width:100%;
-    height: auto;
+  height: auto;
 }
 
 body {
@@ -94,6 +94,7 @@ body {
 	font-family: "verdana", "verdana", sans-serif;
 	font-style: italic;
 	padding-top: 10px;
+	padding-left: 310px;
 
 }
 
@@ -120,8 +121,8 @@ a.b { text-decoration: none;
       color:black;
 	  background-color: transparent;
 	  text-decoration: none;
-      font-family: "verdana", "verdana", sans-serif;
-	  text-size: 50px;
+		font-family: "verdana", "verdana", sans-serif;
+	   text-size: 50px;
 }
 
 a.b:hover {
@@ -132,7 +133,7 @@ background-color: black;
 
 .grid-container{
 	display: grid;
-	grid-column-gap: 0px;
+	grid-column-gap: 15px;
 	grid-template-columns: auto auto;
 	padding: 40px;
 	grid-row-gap: 100px;
@@ -150,11 +151,18 @@ background-color: black;
   h1#hp {
 	  text-align: center;
     font-size: 20px;
+		padding-left: 0;
   }
 }
 
 @media screen and (max-width: 812px) {
   span#text {
     font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  span.menu {
+    padding-left: 0px;
   }
 }
