@@ -1,14 +1,134 @@
 <html>
 <head>
-<title>Taka</title> <!--Tittelen på fanen--> 
-<link rel="stylesheet" href="styles.css"> <!--Linker dette dokumentet til style--> 
+<title>Kjørte i grofta</title> <!--Tittelen på fanen-->
+<link rel="stylesheet" href="styles.css"> <!--Linker dette dokumentet til style-->
+<link rel="stylesheet" href="https://fonts.google.com/specimen/Ubuntu?selection.family=Ubuntu">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<style>
+@media screen and (max-width: 812px) {
+  span.menu {
+    font-size: 10px;
+  }
+}
 
-<h1 class="grofta"> <!--Dette er overskrift, class beskriver er en attribute som er nødvendig for og f.eks style elemente--> 
-Når Tor taket første gang.
+@media screen and (max-width: 812px) {
+  h1#hp {
+    text-align: center;
+    font-size: 20px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  span#text {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  div.grid-container {
+    grid-column-gap: 20px;
+    padding: 10px;
+    grid-template-columns: 150px 150px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  div.grid-container {
+    grid-column-gap: 20px;
+    padding: 10px;
+    grid-template-columns: 150px 150px;
+    margin-left: 40px;
+  }
+
+
+  @media screen and (min-width: 500px) {
+    div.grid-container {
+      grid-column-gap: 20px;
+      padding: 10px;
+      grid-template-columns: 150px 150px;
+      margin-left: 100px;
+    }
+
+    @media screen and (min-width: 850px) {
+      div.grid-container {
+        grid-column-gap: 80px;
+        padding: 10px;
+        grid-template-columns: 150px 150px;
+        margin-left: 250px;
+      }
+
+    @media screen and (min-width: 1250px) {
+        div.grid-container {
+          grid-column-gap: 80px;
+          padding: 10px;
+          grid-template-columns: 200px 200px;
+          margin-left: 400px;
+        }
+
+
+        @media screen and (min-width: 1250px) {
+          h1#hp {
+            grid-column-gap: 80px;
+            padding: 10px;
+            grid-template-columns: 200px 200px;
+            padding-left: 500px;
+          }
+       }
+
+       @media screen and (min-width: 1920px) {
+          div.grid-container {
+            grid-column-gap: 80px;
+            padding: 10px;
+            grid-template-columns: 200px 200px;
+            margin-left: 700px;
+          }
+
+          @media screen and (min-width: 1250px) {
+            h1#hp {
+              grid-column-gap: 80px;
+              padding: 10px;
+              grid-template-columns: 200px 200px;
+              padding-left: 800px;
+            }
+         }
+
+
+</style>
+
+<span id="logo">
+<nav class="menu1">
+<ul>
+<span id="text">
+<a href="index">WERKET RACING</a>
+</span>
+<span class="menu">
+<li><a href="biler">BILER</a></li>
+<li><a href="info">INFO</a></li>
+<li><a href="kontakt">KONTAKT</a></li>
+</ul>
+</nav>
+</span>
+
+<br>
+<h1 id="hp"> <!--Dette er overskrift, class beskriver er en attribute som er nødvendig for og f.eks style elemente-->
+Tor kjørte i grøfta for første gang.
 </h1>
 
+
+<img src="grofta1.png" id="gr">
+<div class="flr">
+<br>
+<p>Tor kjørte i grøfta for førsta i 2018 da teipen på brekket falt av.<br>
+ Men han selgte bilen til dekkslter'n så fikk han seg en ny bil volvo 740.
+ <div class="b">
+ <p><a class="c" href="https://imgur.com/a/9TZk68P">VIDEO AV 740'N</a></p>
+ </div>
+ </p>
+</div>
 
 
 
